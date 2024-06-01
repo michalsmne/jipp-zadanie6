@@ -27,5 +27,6 @@ public class Main {
 
         System.out.println("Naciśnij enter aby zamknąć program.");
         System.in.read();
+        scanner.close();
     }
 }
